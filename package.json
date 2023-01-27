@@ -1,0 +1,35 @@
+{
+  "name": "simple-physics-demo",
+  "version": "1.0.0",
+  "description": "A box dropping onto a plane using use-cannon / cannon-es.",
+  "keywords": [
+    "physics",
+    "cannon-es",
+    "use-cannon"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@react-three/cannon": "2.5.0",
+    "@react-three/drei": "^9.4.2",
+    "@react-three/fiber": "^8.0.11",
+    "@splinetool/r3f-spline": "^1.0.1",
+    "@splinetool/loader": "^0.9.198",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "^4.0.0",
+    "three": "^0.142.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
